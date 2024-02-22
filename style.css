@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+body{
+    background-color: grey;
+}
+
+h1{
+    margin-left: 35vw;
+    margin-top: 18vh;
+    color: rgb(118, 21, 37);
+}
+
+h1::after{
+    content: "";
+    
+}
+
+input{
+    padding-left: 1vw;
+}
+
+.input-box{
+    margin-left: 33vw;
+    margin-top: 20vh;
+}
+
+
+#input{
+    height: 8vh;
+    width: 30vw;
+    border-radius: 20px;
+}
+
+#btn{
+    height: 8vh;
+    width: 4vw;
+    border-radius: 20px;
+}
+
